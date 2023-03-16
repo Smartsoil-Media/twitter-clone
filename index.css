@@ -58,7 +58,7 @@ main, header{
 
 @media only screen and (max-width: 767px) {
     main, header {
-        width: 90%;
+        width: 90% !important;
     }
 }
 
@@ -146,7 +146,7 @@ button{
 
 @media only screen and (max-width: 767px) {
     .tweet-details {
-        width: 90%;
+        width: 90% !important;
     }
 }
 
@@ -177,7 +177,7 @@ button{
 
 @media only screen and (max-width: 767px) {
     .tweet-text {
-        width: 350px;
+        width: 350px !important;
     }
 } 
 
