@@ -148,6 +148,7 @@ function handleTweetBtnClick() {
         uuid: uuidv4()
     })
     tweetInput.value = ""
+    updateLocalStorage(liveData);
     render()
 }
 
